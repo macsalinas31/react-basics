@@ -1,0 +1,10 @@
+.navbar-nav .nav-link.active {
+    font-size: larger;
+    color:rgb(155, 113, 58);
+  
+}
+
+.nav-link {
+    font-size: larger;
+    color:rgb(155, 113, 58);
+}

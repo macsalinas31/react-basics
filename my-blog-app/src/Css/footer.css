@@ -1,0 +1,11 @@
+.footer-main {
+    background-color: rgb(197, 193, 193);
+    
+}
+
+.list  {
+    list-style: none;
+}
+.company {
+    font-family: 'Inconsolata', monospace;
+}

@@ -1,0 +1,14 @@
+.body {
+    color:rgb(155, 113, 58);
+    font-family: 'Inconsolata', monospace;
+    margin: 10px;
+
+    
+}
+
+.text-main {
+    font-family: 'Inconsolata', monospace;
+    font-size: 50px;
+    color: rgb(155, 113, 58);
+    
+}
