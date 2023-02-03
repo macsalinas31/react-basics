@@ -1,4 +1,5 @@
 import Inquire from "./Inquire";
+import Body from './Body';
 
 function Main (){
     return (

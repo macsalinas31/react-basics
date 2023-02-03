@@ -23,11 +23,16 @@ import Inquire from './Component/Inquire';
 function App() {
   return (
     <>
-  
-    <Header></Header>
-    <Body></Body>
-    <Main></Main>
-    <Footer></Footer>
+   
+    <Routes>
+      <Route element={<MainLayout/>}>
+        <Route path='/' element={<Main/>} />
+        <Route path='/work' element={<Work />} />
+        <Route path='/about' element={<AboutUs />} />
+        <Route path='/hire' element={<HireUs />} />
+      </Route>
+      
+    </Routes>
     
     </>
   );
