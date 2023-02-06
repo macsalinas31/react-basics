@@ -1,5 +1,6 @@
 import './App.css'
 import {useState} from 'react'
+import './pages/cssstyle.css'
 
 
 function App() {
@@ -37,11 +38,11 @@ function App() {
   }
  
   return (
-    
+    <div className="container">
     <div className="App">
       
-      <input onChange={e => setInput(e.target.value) } value={input}placeholder='Add to do'/>
-      <button onClick={() => addTodo()}>Pasa mo!</button>
+      <input className="form-control" onChange={e => setInput(e.target.value)} value={input} placeholder='Add to do'/>
+      <button className="btn btn-primary" onClick={() => addTodo()}><span class="icon">+</span></button>
       <hr />
       <ul>
        {todos.map(todo => {
@@ -57,8 +58,9 @@ function App() {
         )}
       </ul>
     </div>
-    
+    </div>
   )
 }
 
 export default App
+

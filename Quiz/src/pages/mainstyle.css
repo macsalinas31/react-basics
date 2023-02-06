@@ -1,0 +1,40 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .score-section {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .question-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .answer-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    margin: 10px;
+  }
+  
