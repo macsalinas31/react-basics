@@ -1,0 +1,17 @@
+.card-container {
+    /* padding: 20px; */
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(8, 148, 190);
+    color: white
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
